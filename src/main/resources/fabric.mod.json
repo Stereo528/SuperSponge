@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "supersponge",
+  "version": "${version}",
+  "name": "SuperSponge",
+  "description": "Adds a Sponge that picks up a bigger radius and all liquids",
+  "authors": [
+    "Stereo528"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://stereo528.github.io",
+    "sources": "https://github.com/Stereo528/SuperSponge"
+  },
+  "license": "MIT",
+  "icon": "assets/supersponge/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.stereo528.SuperSpongeMain"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "supersponge.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*"
+  }
+}
